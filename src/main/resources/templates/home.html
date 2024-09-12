@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Form</title>
+    
+    <link rel="stylesheet" type= "text/css" href="css/style.css">
+    <script src="js/script.js"></script>
+
+</head>
+
+<body>
+    <form class="formclass" action="success.html" method="post">
+        <ul>
+            <li>
+                <label for="FirstName">First Name</label>
+                <input id="FirstName" name="firstName" type="text" />
+            </li>
+            
+            <li>
+                <label for="LastName">Last Name</label>
+                <input id="LastName" name="lastName" type="text" />
+            </li>
+            
+            <p>Please Select your Gender</p>
+
+            <li>
+                <label for="male">Male</label>
+                <input id="male" name="gender" type="radio" value="male" />
+            </li>
+            <li>
+                <label for="female">Female</label>
+                <input id="female" name="gender" type="radio" value="female" />
+            </li>
+            
+            <li>
+                <label for="countries">Countries</label>
+                <select id="countries" name="country">
+                    <option value="India">India</option>
+                    <option value="US">US</option>
+                    <option value="Canada">Canada</option>
+                </select>
+            </li>
+        </ul>
+        
+        <input type="submit" value="Submit" />
+    </form>
+</body>
+</html>
